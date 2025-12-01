@@ -5,19 +5,19 @@ const Education = () => {
     {
       institute: "Birsa Institute of Technology",
       place: "Sindri, Dhanbad",
-      duration: "2021 – 2025",
+      duration: "2023 – 2027",
       degree: "Bachelor of Technology (B.Tech)",
     },
     {
       institute: "Subhash Public School",
       place: "Giridih, Jharkhand",
-      duration: "2020",
+      duration: "2022",
       degree: "Intermediate (PCM)",
     },
     {
       institute: "B.N. Saha Public School",
       place: "Bulaki Road, Giridih",
-      duration: "2018",
+      duration: "2020",
       degree: "Matriculation",
     },
   ];

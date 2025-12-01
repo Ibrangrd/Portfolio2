@@ -24,21 +24,30 @@ const Bio = () => {
         <div className="flex justify-between md:m-4">
           <div className="md:w-4/12 w-10/12 my-6 md:ml-20 sm:ml-8 ml-6">
             <p className="text-3xl md:text-5xl font-extrabold my-6">
-              <span className="font-bold">Full-Stack </span><span> MERN </span> <span className="font-bold">Developer</span>
+              <span className="font-bold">Full-Stack </span>
+              <span> MERN </span> <span className="font-bold">Developer</span>
             </p>
             <p className="font-serif my-2">
-              Hi , I'm <span className="font-extrabold text-lg">Md Ibran</span>. A passionate Full-Stack MERN Devopment based in
-              Dhanbad , Jharkhand.
+              Hi , I'm <span className="font-extrabold text-lg">Md Ibran</span>.
+              A passionate Full-Stack MERN Devopment based in Dhanbad ,
+              Jharkhand.
             </p>
             <div className="flex">
               <Link to={LN_PROFILE_URL} target="_blank">
-                <img alt="ln"
-                title ="Profile"
-                 className="mr-2 h-5  dark:bg-white dark:rounded-sm hover:scale-125" src={LN_ICON} />
+                <img
+                  alt="ln"
+                  title="Profile"
+                  className="mr-2 h-5  dark:bg-white dark:rounded-sm hover:scale-125"
+                  src={LN_ICON}
+                />
               </Link>
               <Link to={GITHUB_PROFILE_URL} target="_blank">
-                <img alt="git"
-                title="Github" className="h-5 dark:bg-white dark:rounded-full hover:scale-125" src={GIT_ICON} />
+                <img
+                  alt="git"
+                  title="Github"
+                  className="h-5 dark:bg-white dark:rounded-full hover:scale-125"
+                  src={GIT_ICON}
+                />
               </Link>
             </div>
           </div>
@@ -54,7 +63,11 @@ const Bio = () => {
           <pre className="font-extrabold">Tech Stack |</pre>
           <ul className="flex justify flex-wrap">
             <li className="my-1 md:mx-4 mx-2 mb-5">
-              <img alt="html" className="h-5  dark:bg-white dark:rounded-sm" src={HTML_ICON} title="HTML"
+              <img
+                alt="html"
+                className="h-5  dark:bg-white dark:rounded-sm"
+                src={HTML_ICON}
+                title="HTML"
               ></img>
             </li>
 
@@ -62,39 +75,86 @@ const Bio = () => {
               <img alt="css" className="h-5" src={CSS_ICON} title="CSS"></img>
             </li>
             <li className="my-1 md:mx-4 mx-2">
-              <img alt="js" className="h-5" src={JS_ICON} title="Javascript"
+              <img
+                alt="js"
+                className="h-5"
+                src={JS_ICON}
+                title="Javascript"
               ></img>
             </li>
 
             <li className="my-1 md:mx-4 mx-2">
-              <img alt="react" className="h-5" src={REACT_ICON} title="React"
+              <img
+                alt="react"
+                className="h-5"
+                src={REACT_ICON}
+                title="React"
               ></img>
             </li>
             <li className="my-1 md:mx-4 mx-2">
-              <img alt="redux" className="h-5" src={REDUX_ICON} title="Redux Toolkit"
+              <img
+                alt="redux"
+                className="h-5"
+                src={REDUX_ICON}
+                title="Redux Toolkit"
               ></img>
             </li>
-              <li className="my-1 md:mx-4 mx-2">
-              <img alt="tw" className="h-6 w-6" src={EXPRESS_ICON} title="Express"
+            <li className="my-1 md:mx-4 mx-2">
+              <img
+                alt="tw"
+                className="h-6 w-6"
+                src={EXPRESS_ICON}
+                title="Express"
               ></img>
             </li>
-              <li className="my-1 md:mx-4 mx-2">
-              <img alt="tw" className="h-6 w-6" src={NODE_ICON} title="Node"
+            <li className="my-1 md:mx-4 mx-2">
+              <img
+                alt="tw"
+                className="h-6 w-6"
+                src={NODE_ICON}
+                title="Node"
               ></img>
             </li>
-              <li className="my-1 md:mx-4 mx-2">
-              <img alt="tw" className="h-6 w-6" src={MONGODB_ICON} title="MondoDb"
+            <li className="my-1 md:mx-4 mx-2">
+              <img
+                alt="tw"
+                className="h-6 w-6"
+                src={MONGODB_ICON}
+                title="MondoDb"
               ></img>
             </li>
-             <li className="my-1 md:mx-4 mx-2">
-              <img alt="tw" className="h-5 w-5" src={TAILWIND_ICON} title="Tailwind CSS"
+            <li className="my-1 md:mx-4 mx-2">
+              <img
+                alt="tw"
+                className="h-5 w-5"
+                src={TAILWIND_ICON}
+                title="Tailwind CSS"
               ></img>
             </li>
-            
           </ul>
         </div>
+
+        <div className="flex gap-4 md:mx-24 mx-6 mt-10 md:mt-0">
+        <p className="font-bold pt-2">Resume |</p>
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
+          >
+          View
+          </a>
+
+          <a
+            href="/resume.pdf"
+            download="Md-Imran-Resume"
+            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+          >
+          Download
+          </a>
+        </div>
       </div>
-      </div>
+    </div>
   );
 };
 
