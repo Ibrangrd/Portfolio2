@@ -21,7 +21,7 @@ export const LN_PROFILE_URL = "https://www.linkedin.com/in/md-ibran-831729293/";
 export const GITHUB_PROFILE_URL = "https://github.com/Ibrangrd";
 export const LIVE_DEMO_ICON =
   "https://cdn-icons-png.flaticon.com/512/7794/7794669.png";
-export const QrWeds_URL = "https://qrweds.com";
+export const QrWeds_URL = "https://qrweds.netlify.app/";
 export const QrWeds_Github = "https://github.com/Ibrangrd/Qr_client";
 export const Tiffin_URL = "https://tiffin-wyyr.onrender.com/";
 export const Tiffin_Github = "https://github.com/Ibrangrd/Tiffin";
